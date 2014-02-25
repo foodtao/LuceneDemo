@@ -1,0 +1,6 @@
+package first;
+
+public class Test1_Indexer {
+	private String fieldName;
+	private String endStr;
+}

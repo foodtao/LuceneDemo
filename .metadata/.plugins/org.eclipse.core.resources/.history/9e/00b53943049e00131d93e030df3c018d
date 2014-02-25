@@ -1,0 +1,12 @@
+package first;
+
+import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
+import org.apache.lucene.util.Version;
+
+public class Test1_Indexer {
+
+	public void Indexer(){
+		int a = 0;
+		Analyzer analyzer = new SmartChineseAnalyzer(Version.LUCENE_46,true);
+}
