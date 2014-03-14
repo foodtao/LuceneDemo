@@ -22,7 +22,7 @@ public class Test2_Searcher {
 	
 	public static void main(String[] args){
 		try {
-			Search("ÖÐ»ª");
+			Search("¹ú");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -35,9 +35,9 @@ public class Test2_Searcher {
 	public static void Search(String querystring) throws IOException, ParseException{
 		IndexReader reader = DirectoryReader.open(FSDirectory.open(new File("d:\\lucene\\index")));
 		IndexSearcher search = new IndexSearcher(reader);
-		Analyzer analyzer = new SmartChineseAnalyzer(Version.LUCENE_46);
+		Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_47);
 		
-		QueryParser parser = new QueryParser(Version.LUCENE_46,"",analyzer);
+		QueryParser parser = new QueryParser(Version.LUCENE_47,"content",analyzer);
 		
 		Query query = parser.parse(querystring);
 		

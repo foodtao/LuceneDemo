@@ -1,9 +1,0 @@
-package first;
-
-public class Test2_Searcher {
-	
-	public static void main(String[] args){
-		
-	}
-
-}

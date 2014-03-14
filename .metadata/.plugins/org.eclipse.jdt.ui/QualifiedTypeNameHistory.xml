@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.lucene.index.IndexWriterConfig"/>
+<fullyQualifiedTypeName name="org.apache.lucene.store.Directory"/>
+<fullyQualifiedTypeName name="org.apache.lucene.index.IndexWriter"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Field.Index"/>
+<fullyQualifiedTypeName name="org.apache.lucene.index.IndexWriterConfig.OpenMode"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.StringField"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Field.Store"/>
+<fullyQualifiedTypeName name="org.apache.lucene.index.DirectoryReader"/>
+<fullyQualifiedTypeName name="org.apache.lucene.store.FSDirectory"/>
+<fullyQualifiedTypeName name="org.apache.lucene.index.IndexReader"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.IndexSearcher"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.Analyzer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.util.Version"/>
+<fullyQualifiedTypeName name="org.apache.lucene.queryparser.classic.QueryParser"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.Query"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.TopDocs"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.ScoreDoc"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Document"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+</qualifiedTypeNameHistroy>
